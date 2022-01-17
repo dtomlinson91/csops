@@ -2,12 +2,14 @@ import argparse
 import pathlib
 import subprocess
 
+from csops import CONFIG
+
 
 def encrypt(args):
     encrypted_filename = f"{args.file.stem}.enc{args.file.suffix}"
     subprocess.run(
-        "sops --encrypt --gcp-kms"
-        f" projects/plex-mozilla-sops/locations/global/keyRings/sops/cryptoKeys/sops-key {args.file} >  {encrypted_filename}",
+        "sops --encrypt --gcp-kms "
+        f"{CONFIG.gcp_kms_key} {args.file} >  {encrypted_filename}",
         check=True,
         text=True,
         shell=True,
