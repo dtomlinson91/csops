@@ -3,6 +3,7 @@ import pathlib
 import subprocess
 
 from csops import CONFIG
+from csops._version import __version__
 
 
 def encrypt(args):
@@ -34,6 +35,7 @@ def run():
     parser = argparse.ArgumentParser()
     parser.add_argument("flag", type=str, nargs=1)
     parser.add_argument("file", type=pathlib.Path)
+    parser.add_argument('-v', '--version', action='version', version='%(prog)s ' + __version__)
     args = parser.parse_args()
 
     try:
