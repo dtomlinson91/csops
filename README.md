@@ -21,7 +21,10 @@ csops:
     gcp_kms_key: projects/plex-mozilla-sops/locations/global/keyRings/sops/cryptoKeys/sops-key
 ```
 
-Or set the environment variable `CSOPS_GCP_KMS_KEY="projects/plex-mozilla-sops/locations/global/keyRings/sops/cryptoKeys/sops-keys"`
+Or set the environment variable
+```bash
+CSOPS_GCP_KMS_KEY="projects/plex-mozilla-sops/locations/global/keyRings/sops/cryptoKeys/sops-keys"
+```
 
 ## Usage
 
