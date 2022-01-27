@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 
 <!-- marker -->
+## [v0.2.1](https://github.com/dtomlinson91/csops/commits/v0.2.1) - 2022-01-27
+<small>[Compare with v0.2.0](https://github.com/dtomlinson91/csops/compare/v0.2.0..v0.2.1)</small>
+
+### ✨ Features
+
+- Add `--version` flag ([a375ac1](https://github.com/dtomlinson91/csops/commit/a375ac18075341ffc3cf410d26837d327d682ea7))
+
+### 📘 Documentation
+
+- Reformat environment variable example ([1a90618](https://github.com/dtomlinson91/csops/commit/1a9061880814d6171f599fc3a0d14eead0514d9a))
+
+### 🛠 Refactor/Improvement
+
+- Disable spawning a shell on subprocess ([91519e2](https://github.com/dtomlinson91/csops/commit/91519e232d1f1cfe19fd13a7a0ac45c80506195c))
 ## [v0.2.0](https://github.com/dtomlinson91/csops/commits/v0.2.0) - 2022-01-17
 <small>[Compare with v0.1.0](https://github.com/dtomlinson91/csops/compare/v0.1.0..v0.2.0)</small>
 
