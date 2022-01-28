@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 <!-- marker -->
 ## [v0.2.1](https://github.com/dtomlinson91/csops/commits/v0.2.1) - 2022-01-27
-<small>[Compare with v0.2.0](https://github.com/dtomlinson91/csops/compare/v0.2.0..v0.2.1)</small>
+<small>[Compare with v0.2.0](https://github.com/dtomlinson91/csops/compare/v0.2.0...v0.2.1)</small>
 
 ### ✨ Features
 
@@ -18,7 +18,7 @@ All notable changes to this project will be documented in this file.
 
 - Disable spawning a shell on subprocess ([91519e2](https://github.com/dtomlinson91/csops/commit/91519e232d1f1cfe19fd13a7a0ac45c80506195c))
 ## [v0.2.0](https://github.com/dtomlinson91/csops/commits/v0.2.0) - 2022-01-17
-<small>[Compare with v0.1.0](https://github.com/dtomlinson91/csops/compare/v0.1.0..v0.2.0)</small>
+<small>[Compare with v0.1.0](https://github.com/dtomlinson91/csops/compare/v0.1.0...v0.2.0)</small>
 
 ### ✨ Features
 
